@@ -28,6 +28,7 @@ function getCurrentImageOfTheDay(){
         document.getElementById('title').innerHTML=data.title;
         document.getElementById('data-image').src =data.url;
         document.getElementById('data-information').innerHTML=data.explanation;
+        saveSearch(data);
     });
 }
 function update(data){
