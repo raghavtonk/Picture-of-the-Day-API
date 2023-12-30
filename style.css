@@ -1,0 +1,39 @@
+#current-image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: black;
+    color: white;
+    height: fit-content;
+    padding: 20px;
+    width: 90%;
+}
+#data-image{
+    width: 90%;
+    height: fit-content;
+}
+#data-information{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul{
+    list-style-type: none;
+    margin-left: 0px;
+}
+li{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    width: fit-content;
+}
+li:hover{
+    background-color: rgb(98, 98, 218);
+}
+#lowerBody{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+}
