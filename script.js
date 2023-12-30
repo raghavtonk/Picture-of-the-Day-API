@@ -54,6 +54,7 @@ function addSearchToHistory(jsonarray){
     let previous_search = document.getElementById('previous_search');
     previous_search.innerHTML="";
     const list = document.createElement('ul');
+    list.id = "search-history";
     previous_search.appendChild(list);
     for (let i =0 ; i < arraylength ; i++){
         const li = document.createElement('li');
